@@ -1,5 +1,51 @@
 .app{
   text-align: center;
+  background-color:	#1E90FF;
+}
+
+.header{
+  display:flex;
+  background-color: #0000CD;
+  padding-top: 10px;
+}
+
+.nameHeader{
+  text-align: left;
+  color: white;
+  font-size: 70px;
+  width: 50%;
+  margin-left: 20px;
+  text-shadow: 2px 2px black;
+  margin-bottom: -1px;
+}
+
+.navBar{
+  font-size: 20px;
+  text-align: right;
+  width: 50%;
+  margin-bottom: -1px;
+  color:white; 
+  margin-top: 10px;
+  margin-right: 20px;
+  text-shadow: 2px 2px black;
+}
+#selfieImg{
+  margin-top: 50px;
+  border-radius: 100%;
+  height:300px;
+  border:10px solid black;
+}
+
+#nameProfileHeader{
+  color:white;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+#bioProfileHeader{
+  color:white
 }
 
 .infoBody{
