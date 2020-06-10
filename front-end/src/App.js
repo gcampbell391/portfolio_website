@@ -9,20 +9,32 @@ import ContactMe from "./components/ContactMe"
 import Footer from './components/Footer';
 
 
-const App = () => {
-  return (
-    <div className="app">
-      <Header />
-      <MyProfile />
-      <div className="infoBody">
-        <AboutMe />
-        <Interests />
+class App extends React.Component {
+
+  handleSendClick = (event) => {
+    event.preventDefault()
+    // const userName = event.target.querySelector("#inputName").value
+    // const userEmail = event.target.querySelector("#inputEmail").value
+    // const userMessage = event.target.querySelector("#inputMessage").value
+    // debugger
+
+  }
+
+  render() {
+    return (
+      <div className="app">
+        <Header />
+        <MyProfile />
+        <div className="infoBody">
+          <AboutMe />
+          <Interests />
+        </div>
+        <MyProjects />
+        <ContactMe handleSendClick={this.handleSendClick} />
+        <Footer />
       </div>
-      <MyProjects />
-      <ContactMe />
-      <Footer />
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

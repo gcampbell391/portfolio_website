@@ -42,11 +42,13 @@
   border-bottom: 2px solid white;
   margin-right: 400px;
   margin-left: 400px;
+  text-shadow: 2px 2px black;
 }
 
 #bioProfileHeader{
   color:white;
   padding-bottom: 10px;
+  text-shadow: 2px 2px black;
 }
 
 .infoBody{
@@ -58,7 +60,7 @@
   padding-top: 10px;
   width: 50%;
   background-color: white;
-  color:#0000CD;
+  color:#1E90FF;
   font-weight: bold;
 }
 
@@ -74,6 +76,7 @@
   border-bottom: 2px solid #0000CD;
   margin-left: 200px;
   margin-right: 200px;
+  color: #0000CD;
 }
 
 .interests{
@@ -95,7 +98,8 @@
   margin-right: 170px;
 }
 
-.interestList{
+.interestList{ 
+  color:#1E90FF;
   text-align: left;
   margin-left: 100px;
   margin-right: 50px;
@@ -105,7 +109,59 @@
   margin-bottom: 5px;
 }
 
+.contactMe{
+  color:white;
+  margin-right: 400px;
+  margin-left: 400px;
+  padding-bottom: 20px;;
+}
+
+#contactMeTitle{
+  border-bottom: 2px solid white;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-shadow: 2px 2px black;
+}
+
+#projectTitle{
+  color:white;
+  border-bottom: 2px solid white;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding-top: 20px;
+  text-shadow: 2px 2px black;
+}
+
+#youtubeDesc{
+text-shadow: 1px 1px black;
+color:white;
+padding-bottom: 10px;
+}
+
+#videoOne{
+  width:50%;
+}
+
+#DGAA{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#videoTwo{
+  width:50%;
+}
+
+#Market365{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.videoContainer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
 .Footer{
-  background-color: white;
-  color:  #0000CD;
+  padding-top: 10px;
+  color:  white;
+  text-shadow: 2px 2px black;
 }
