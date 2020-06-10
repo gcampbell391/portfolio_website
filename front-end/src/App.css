@@ -45,7 +45,8 @@
 }
 
 #bioProfileHeader{
-  color:white
+  color:white;
+  padding-bottom: 10px;
 }
 
 .infoBody{
@@ -54,9 +55,57 @@
 }
 
 .aboutMe{
-  width: 50%;;
+  padding-top: 10px;
+  width: 50%;
+  background-color: white;
+  color:#0000CD;
+  font-weight: bold;
+}
+
+.aboutMeParagraph{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+#aboutMeTitle{
+  border-bottom: 2px solid #0000CD;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .interests{
   width: 50%;
+  background-color: white;
+  color:#0000CD;
+  font-weight: bold;
+}
+
+#interestTitle{
+  border-bottom: 2px solid #0000CD;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#educationTitle{
+  border-bottom: 2px solid #0000CD;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.interestList{
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+.interestList li{
+  margin-bottom: 5px;
+}
+
+.Footer{
+  background-color: white;
+  color:  #0000CD;
 }
